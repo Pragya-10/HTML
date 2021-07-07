@@ -1,0 +1,124 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.clear{
+    clear: both;
+}
+
+h1{
+    font-size: 2.8rem;
+}
+
+h2{
+    font-size: 3.6rem;
+    padding: 5rem 0rem 1rem;
+}
+.magic {
+    font-size: 5rem;
+    font-style:italic;
+    color:teal;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+
+h3{
+    font-size: 4rem;
+    font-style: oblique;
+    margin: 0rem 0rem 1rem;
+    
+
+    
+}
+
+button{
+    font-size: 1.8rem;
+}
+
+nav{
+    background:rgb(68, 59, 59);
+    color: white;
+    padding: 2rem;
+
+}
+nav h1 {
+    float: left;
+    color: wheat;
+}
+nav ul {
+    float: right;
+    list-style: none;
+}
+nav li{
+    float: left;
+    margin: 0rem 2rem;
+}
+
+.magician{
+    background-image: url("/marius-teodorescu-pXQncqqo1O4-unsplash.jpg");
+    height: 80rem;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding-top: 15rem;
+    text-shadow: 3px 3px 3px black;
+}
+
+.magician button{
+    margin-top: 3rem;
+    padding: 1rem 1rem;
+    background:maroon;
+    border: 0.1rem solid cornsilk;
+    color: white;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+.magician button:hover {
+    background-color:darkgreen;
+}
+
+.form-section {
+    text-align: center;
+}
+
+form{
+
+}
+form input,
+form label,
+form textarea{
+    display: block;
+    font-size: 2rem;
+    width: 50%;
+}
+
+form input,
+form textarea{
+    margin: 2rem auto;
+}
+
+form button{
+    margin-bottom: 10rem;
+    padding: 1rem 1rem;
+    background:maroon;
+    border: 0.1rem solid cornsilk;
+    color: white;
+    cursor: pointer;
+    border-radius: 1rem
+}
+form button:hover{
+    background: chartreuse;
+}
